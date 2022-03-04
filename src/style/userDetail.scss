@@ -1,0 +1,37 @@
+@import './dashboard';
+.userDetails_div{
+    @include main_div();
+}
+.multiTab{
+    @include boardStyle();
+}
+.user_mood_chart{
+    @include boardStyle();
+}
+// .accordian{
+//     background-color: #ffff;
+//     margin-top: 20px;
+//     padding: 20px;
+//     border-radius: 20px;
+//     border: 1px solid #bafffc;
+
+    
+// }
+.courseCard{
+    border: 1px solid #E63369;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: transform .2s;
+    
+    &:hover{
+        box-shadow: 0px 21px 0px 0px rgba(230,51,105,0.85);
+        -webkit-box-shadow: 0px 21px 0px 0px rgba(230,51,105,0.85);
+        -moz-box-shadow: 0px 21px 0px 0px rgba(230,51,105,0.85);
+        transition:  0.8;
+      
+       
+    }
+}
+.card_data{
+    padding: 16px;
+}
