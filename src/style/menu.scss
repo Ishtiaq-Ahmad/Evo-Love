@@ -2,9 +2,6 @@
 $themeColor: #fbbe36;
 .menu_div{
     @include main_div();
-    // background-color: #f0f0fa;
-    // height: 100vh;
-
 }
 .product_price{
     background-color: $themeColor;

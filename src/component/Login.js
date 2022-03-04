@@ -19,7 +19,7 @@ const Login = () => {
   return (
     <div className="background_image">
       <Grid container spacing={2}>
-        <Grid item xs={12} md={6} >
+        <Grid item xs={12} md={6}>
           <div className="right_column">
             <div className="login_text">
               <img
@@ -38,7 +38,7 @@ const Login = () => {
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
-                      <EmailIcon  />
+                      <EmailIcon />
                     </InputAdornment>
                   ),
                 }}
@@ -47,10 +47,9 @@ const Login = () => {
               />
               <TextField
                 className="user_name"
-                style={{ color:"#ffff"}}
+                style={{ color: "#ffff" }}
                 id="input-with-icon-textfield"
                 label="Password"
-
                 type="password"
                 placeholder="Password"
                 InputProps={{
@@ -67,7 +66,7 @@ const Login = () => {
                 type="submit"
                 variant="contained"
                 onClick={loginHandler}
-                style={{ background: "#E63369" , borderRadius:"50px"}}
+                style={{ background: "#E63369", borderRadius: "50px" }}
               >
                 Login
               </Button>
@@ -75,12 +74,8 @@ const Login = () => {
           </div>
         </Grid>
         <Grid item xs={0} md={6} className="display_left_column">
-            <img
-              className="node_image"
-              src={LoingImgae}
-              alt="Node Png Images"
-            />
-           </Grid>
+          <img className="node_image" src={LoingImgae} alt="Node Png Images" />
+        </Grid>
       </Grid>
     </div>
   );

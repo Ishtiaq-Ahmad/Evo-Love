@@ -11,7 +11,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Menues from "./Menues";
 import logo from "../assets/images/evolove_logo.png";
-import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -25,7 +24,7 @@ const Sidebars = (props) => {
 
   const drawer = (
     <div>
-      <Divider style={{background:"#E32C58"}} />
+      <Divider style={{ background: "#E32C58" }} />
       <Menues />
     </div>
   );
@@ -57,7 +56,7 @@ const Sidebars = (props) => {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}
           >
-            <MenuIcon  />
+            <MenuIcon />
           </IconButton>
           <div>
             <Typography
@@ -92,7 +91,6 @@ const Sidebars = (props) => {
             },
           }}
         >
-        
           <img src={logo} alt="logo-maker" style={myEmosiLogo} />
           {drawer}
         </Drawer>

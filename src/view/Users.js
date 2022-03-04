@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Sidebars from "../component/Sidebars";
 import "../style/users.scss";
 import { userContent } from "../component/UserData";
@@ -20,7 +20,7 @@ const Users = () => {
             ALL COACHES
           </Typography>
         </div>
-        <Divider sx={{background:"#E63369"}} />
+        <Divider sx={{ background: "#E63369" }} />
 
         <div style={{ padding: "25px" }}>
           <Grid container spacing={2}>
@@ -86,19 +86,25 @@ const Users = () => {
                     </Typography>
                   </Grid>
                   <Grid item xs={3}>
-                    <Typography variant="body1" component="div" gutterBottom style={{ textAlign: "center" }}>
+                    <Typography
+                      variant="body1"
+                      component="div"
+                      gutterBottom
+                      style={{ textAlign: "center" }}
+                    >
                       {item.userEmail}
                     </Typography>
                   </Grid>
                   <Grid item xs={2}>
-                  <Link to={`/home/${item.userId}/${item.userName}`} style={{ textDecoration: "none", color: "black" }}>
-                  <Typography align='center'>
-                    <Button
-                      variant="outlined"
-                      size="small">
-                      View Detail
-                    </Button>
-                    </Typography>
+                    <Link
+                      to={`/home/${item.userId}/${item.userName}`}
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      <Typography align="center">
+                        <Button variant="outlined" size="small">
+                          View Detail
+                        </Button>
+                      </Typography>
                     </Link>
                   </Grid>
                 </Grid>

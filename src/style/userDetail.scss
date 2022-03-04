@@ -3,35 +3,50 @@
     @include main_div();
 }
 .multiTab{
-    @include boardStyle();
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #E63369;
+    @media only screen and (max-width: 786px) {
+        padding: 5px;
+    }
+    
 }
 .user_mood_chart{
     @include boardStyle();
 }
-// .accordian{
-//     background-color: #ffff;
-//     margin-top: 20px;
-//     padding: 20px;
-//     border-radius: 20px;
-//     border: 1px solid #bafffc;
-
-    
-// }
 .courseCard{
     border: 1px solid #E63369;
     border-radius: 20px;
     margin-bottom: 15px;
-    transition: transform .2s;
-    
     &:hover{
         box-shadow: 0px 21px 0px 0px rgba(230,51,105,0.85);
         -webkit-box-shadow: 0px 21px 0px 0px rgba(230,51,105,0.85);
         -moz-box-shadow: 0px 21px 0px 0px rgba(230,51,105,0.85);
         transition:  0.8;
-      
-       
     }
 }
 .card_data{
     padding: 16px;
+}
+.course_sales{
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px rgba(227,44,88,0.38);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(227,44,88,0.38);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(227,44,88,0.38);
+}
+.card_image{
+    height: 200 !important;
+}
+.blog_content{
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    @media only screen and (max-width: 886px) {
+       display: flex;
+       flex-direction: column;
+    }
 }

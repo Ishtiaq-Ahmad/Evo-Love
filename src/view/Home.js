@@ -1,13 +1,13 @@
 import React from "react";
 import "../style/home.scss";
 import Sidebars from "../component/Sidebars";
-import Dashboard from './Dashboard';
+import Dashboard from "./Dashboard";
 
 const Home = () => {
   return (
     <div className="home">
       <Sidebars />
-      <Dashboard/>
+      <Dashboard />
     </div>
   );
 };

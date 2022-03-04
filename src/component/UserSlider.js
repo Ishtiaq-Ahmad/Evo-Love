@@ -8,10 +8,8 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
-import { Link, useNavigate} from "react-router-dom";
-import {userContent} from './UserData';
-
-
+import { Link, useNavigate } from "react-router-dom";
+import { userContent } from "./UserData";
 import "../style/dashboard.scss";
 
 const responsive = {
@@ -54,10 +52,10 @@ const responsive = {
 };
 
 const UserSlider = () => {
-   let navigate = useNavigate();
-   const handleOpen = () => {
-      navigate('/users')
-}
+  let navigate = useNavigate();
+  const handleOpen = () => {
+    navigate("/users");
+  };
   return (
     <div
       style={{
@@ -67,28 +65,45 @@ const UserSlider = () => {
         padding: "10px 10px 40px 10px",
       }}
     >
-    <div style={{display:'flex', justifyContent:"space-between", alignItems:"center"}}>
-      <Typography variant="h6" component="div" gutterBottom>
-        All Coaches
-      </Typography>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Typography variant="h6" component="div" gutterBottom>
+          All Coaches
+        </Typography>
         <Button
           variant="contained"
           onClick={handleOpen}
           style={{
             float: "right",
             margin: "10px",
-            color: "black",
-            borderRadius:"50px",
-            background: 'linear-gradient(90deg, rgba(220,26,85,1) 12%, rgba(109,35,128,1) 87%)',
+            color: "#ffff",
+            borderRadius: "50px",
+            background:
+              "linear-gradient(90deg, rgba(220,26,85,1) 12%, rgba(109,35,128,1) 87%)",
           }}
         >
           See all coaches
         </Button>
-        </div>
-      <Divider style={{ marginTop: "10px", marginBottom: "15px", background:'#E63369' }} />
+      </div>
+      <Divider
+        style={{
+          marginTop: "10px",
+          marginBottom: "15px",
+          background: "#E63369",
+        }}
+      />
       <Carousel responsive={responsive} showDots={true}>
         {userContent.map((ele, index) => (
-          <div key={ele.userId} className="profileCard" style={{ margin: "0px 10px 0px 10px" }}>
+          <div
+            key={ele.userId}
+            className="profileCard"
+            style={{ margin: "0px 10px 0px 10px" }}
+          >
             <Card sx={{ borderRadius: "16px !important" }}>
               <CardActionArea>
                 <CardMedia
@@ -103,7 +118,10 @@ const UserSlider = () => {
                   <Typography gutterBottom variant="h6" component="div">
                     {ele.userName}
                   </Typography>
-                  <Link to={`/home/${ele.userId}/${ele.userName}`} style={{ textDecoration: "none", color: "black" }}>
+                  <Link
+                    to={`/home/${ele.userId}/${ele.userName}`}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
                     <Button
                       variant="text"
                       size="small"

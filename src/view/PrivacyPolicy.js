@@ -35,7 +35,6 @@ const PrivacyPolicy = () => {
           alt="privacy policy"
           className="privacy_image"
         />
-        {/* <Divider /> */}
         <Typography
           variant="body2"
           component="div"
@@ -67,7 +66,7 @@ const PrivacyPolicy = () => {
             margin: "10px 0px 10px 40px",
             color: "black",
             backgroundColor: "#E63369",
-            borderRadius:"50px"
+            borderRadius: "50px",
           }}
         >
           Add New Policy

@@ -1,12 +1,12 @@
-import React,{useState} from 'react';
-import Sidebars from '../component/Sidebars'
-import '../style/privacyPolicy.scss';
-import _TermsAndConditions from '../assets/images/terms_and_conditions.png';
+import React, { useState } from "react";
+import Sidebars from "../component/Sidebars";
+import "../style/privacyPolicy.scss";
+import _TermsAndConditions from "../assets/images/terms_and_conditions.png";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
-import AddTermsAndConditions from '../component/AddTermsAndConditions'
+import AddTermsAndConditions from "../component/AddTermsAndConditions";
 
 const style = {
   position: "absolute",
@@ -21,25 +21,27 @@ const style = {
   borderRadius: 2,
 };
 
-
 const TermsAndConditions = () => {
-    const [_open, setOpen] = useState(false);
+  const [_open, setOpen] = useState(false);
   const _handleClose = () => setOpen(false);
   const handleOpen = () => setOpen(true);
   return (
     <div className="privacy_div">
       <Sidebars />
       <div className="privacy_policy">
-       
         <img
           src={_TermsAndConditions}
           alt="privacy policy"
           className="privacy_image"
         />
-        {/* <Divider /> */}
-        <Typography variant="h4" component="div" gutterBottom sx={{display:'flex', justifyContent:'center', color:"#E63369"}} >
-       <strong>TERMS AND CONDITIONS</strong>
-      </Typography>
+        <Typography
+          variant="h4"
+          component="div"
+          gutterBottom
+          sx={{ display: "flex", justifyContent: "center", color: "#E63369" }}
+        >
+          <strong>TERMS AND CONDITIONS</strong>
+        </Typography>
         <Typography
           variant="body2"
           component="div"
@@ -71,7 +73,7 @@ const TermsAndConditions = () => {
             margin: "10px 0px 10px 40px",
             color: "black",
             backgroundColor: "#E63369",
-            borderRadius:"50px"
+            borderRadius: "50px",
           }}
         >
           Add New Terms and Conditions
@@ -88,7 +90,7 @@ const TermsAndConditions = () => {
         </Modal>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TermsAndConditions
+export default TermsAndConditions;
