@@ -6,11 +6,9 @@ import Grid from "@mui/material/Grid";
 
 const blogData = [
   {
-    blogImage:
-      "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     blogName: "Benefits of Meditation",
-    blogDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
   },
   {
     blogImage:
