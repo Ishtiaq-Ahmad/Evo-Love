@@ -11,11 +11,9 @@ const blogData = [
     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
   },
   {
-    blogImage:
-      "https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
+    blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
     blogName: "Benefits of Meditation",
-    blogDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
   },
   {
     blogImage:
