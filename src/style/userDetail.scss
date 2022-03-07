@@ -2,6 +2,7 @@
 .userDetails_div{
     @include main_div();
 }
+
 .multiTab{
     background-color: #ffff;
     padding: 20px;
@@ -48,5 +49,37 @@
     @media only screen and (max-width: 886px) {
        display: flex;
        flex-direction: column;
+    }
+}
+
+// ************************Blog Detail ************************************
+.blog_detial_div{
+    padding-top: 64px;
+    padding-left: 240px;
+    padding-bottom: 50px;
+    // background-color: $dashboardBackgrounColor ;
+    @media only screen and (max-width: 600px) {
+        padding-top: 45px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.blog_detail_data{
+    padding: 20px;
+    // background-color: #ffff;
+    @media only screen and (max-width: 600px) {
+        padding: 10px;
+    }
+}
+.blog_secondary_image{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+    height: auto;
     }
 }
