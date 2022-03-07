@@ -7,7 +7,8 @@ import PrivacyPolicy from "./view/PrivacyPolicy";
 import UserDetails from './view/UserDetails';
 import Users from './view/Users'
 import TermsAndConditions from './view/TermsAndConditions';
-import BlogDetails from './view/BlogDetails'
+import BlogDetails from './view/BlogDetails';
+import ProductDetails from './view/ProductDetails';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/users" element={<Users/>}/>
           <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
           <Route path="/blog-detail/:userName" element={<BlogDetails/>}/>
+          <Route path="/product-detail/:userName" element={<ProductDetails/>}/>
         </Route>
       </Routes>
     </div>

@@ -13,6 +13,10 @@ export const userContent = [
     blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     blogName: "Benefits of Meditation",
     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHByb2R1Y3R8ZW58MHx8MHx8&w=1000&q=80",
+    productTitle: "Mastery Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
     userId: 2,
@@ -24,6 +28,10 @@ export const userContent = [
     blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
     blogName: "Benefits of Meditation",
     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://pixc.com/wp-content/uploads/2019/10/product-photography-basics-quality.png",
+    productTitle: "Passive Income",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
     userId: 3,
@@ -34,6 +42,10 @@ export const userContent = [
     blogImage: "https://www.who.int/images/default-source/imported/men-health-blood-pressure-measuring.jpg?sfvrsn=89ae0f2b_14",
     blogName: "Benefits of Meditation",
     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://img.buzzfeed.com/buzzfeed-static/static/2021-12/30/1/campaign_images/d0cc3190f950/41-coffee-table-books-that-are-so-beautiful-it-hu-2-11183-1640826416-2_dblbig.jpg?resize=1200:*",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
     userId: 4,
@@ -44,6 +56,10 @@ export const userContent = [
     blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     blogName: "Benefits of Meditation",
     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
     userId: 5,
@@ -54,6 +70,10 @@ export const userContent = [
     blogImage: "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     blogName: "Benefits of Meditation",
     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHByb2R1Y3R8ZW58MHx8MHx8&w=1000&q=80",
+    productTitle: "Mastery Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
     userId: 6,
@@ -64,6 +84,11 @@ export const userContent = [
     blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
     blogName: "Benefits of Meditation",
     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://pixc.com/wp-content/uploads/2019/10/product-photography-basics-quality.png",
+    productTitle: "Passive Income",
+    productName: "Ebook",
+    productPrice: 19.99,
+  
   },
   {
     userId: 7,
@@ -74,6 +99,10 @@ export const userContent = [
     blogImage:"https://www.who.int/images/default-source/imported/men-health-blood-pressure-measuring.jpg?sfvrsn=89ae0f2b_14",
     blogName: "Benefits of Meditation",
     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://img.buzzfeed.com/buzzfeed-static/static/2021-12/30/1/campaign_images/d0cc3190f950/41-coffee-table-books-that-are-so-beautiful-it-hu-2-11183-1640826416-2_dblbig.jpg?resize=1200:*",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
     userId: 8,
@@ -84,6 +113,10 @@ export const userContent = [
     blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     blogName: "Benefits of Meditation",
     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
  
   {
@@ -126,45 +159,95 @@ export const userQuestion =[
   },
 
 ]
-export const blogData = [
+const blogData = [
   {
-    blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-    blogName: "Benefits of Meditation",
-    blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHByb2R1Y3R8ZW58MHx8MHx8&w=1000&q=80",
+    productTitle: "Mastery Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
-    blogName: "Benefits of Meditation",
-    blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://pixc.com/wp-content/uploads/2019/10/product-photography-basics-quality.png",
+    productTitle: "Passive Income",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage: "https://www.who.int/images/default-source/imported/men-health-blood-pressure-measuring.jpg?sfvrsn=89ae0f2b_14",
-    blogName: "Benefits of Meditation",
-    blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://img.buzzfeed.com/buzzfeed-static/static/2021-12/30/1/campaign_images/d0cc3190f950/41-coffee-table-books-that-are-so-beautiful-it-hu-2-11183-1640826416-2_dblbig.jpg?resize=1200:*",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-    blogName: "Benefits of Meditation",
-    blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage: "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-    blogName: "Benefits of Meditation",
-    blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHByb2R1Y3R8ZW58MHx8MHx8&w=1000&q=80",
+    productTitle: "Mastery Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
-    blogName: "Benefits of Meditation",
-    blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://pixc.com/wp-content/uploads/2019/10/product-photography-basics-quality.png",
+    productTitle: "Passive Income",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage:"https://www.who.int/images/default-source/imported/men-health-blood-pressure-measuring.jpg?sfvrsn=89ae0f2b_14",
-    blogName: "Benefits of Meditation",
-    blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://img.buzzfeed.com/buzzfeed-static/static/2021-12/30/1/campaign_images/d0cc3190f950/41-coffee-table-books-that-are-so-beautiful-it-hu-2-11183-1640826416-2_dblbig.jpg?resize=1200:*",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
   {
-    blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-    blogName: "Benefits of Meditation",
-    blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+    productImage:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+    productTitle: "Benefits of Meditation",
+    productName: "Ebook",
+    productPrice: 19.99,
   },
 ];
+// export const blogData = [
+//   {
+//     blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+//     blogName: "Benefits of Meditation",
+//     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
+//     blogName: "Benefits of Meditation",
+//     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage: "https://www.who.int/images/default-source/imported/men-health-blood-pressure-measuring.jpg?sfvrsn=89ae0f2b_14",
+//     blogName: "Benefits of Meditation",
+//     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+//     blogName: "Benefits of Meditation",
+//     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage: "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+//     blogName: "Benefits of Meditation",
+//     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage:"https://www.slma.cc/wp-content/uploads/2020/08/shutterstock_1107674573-1080x675.jpg",
+//     blogName: "Benefits of Meditation",
+//     blogDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage:"https://www.who.int/images/default-source/imported/men-health-blood-pressure-measuring.jpg?sfvrsn=89ae0f2b_14",
+//     blogName: "Benefits of Meditation",
+//     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+//   {
+//     blogImage:"https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+//     blogName: "Benefits of Meditation",
+//     blogDescription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque molestie elementum, id ut condimentum quis. Vitae nisi, semfacilisis sed fringilla. Nunc, aliquam nunc cras 01-01-2022",
+//   },
+// ];
