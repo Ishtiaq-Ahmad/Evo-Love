@@ -11,7 +11,7 @@ const BlogDetails = () => {
     const params = useParams();
     const { userName } = params;
     const user = userContent.find((user) => user.userName === userName);
-    const { blogImage, blogName, blogDescription, userImage } = user;
+    const { blogImage, blogName, userImage } = user;
 
    
     const _style ={
