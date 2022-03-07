@@ -20,6 +20,8 @@ const BlogDetails = () => {
         backgroundColor:"blue",
         backgroundImage: `url(${blogImage})`,
         backgroundSize: '100% 100%',
+        borderRadius:"10px",
+        marginBottom:"20px"
     }
   return (
     <div className="blog_detial_div">  

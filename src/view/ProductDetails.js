@@ -14,8 +14,7 @@ const ProductDetails = () => {
   const params = useParams();
   const { userName } = params;
   const user = userContent.find((user) => user.userName === userName);
-  const { productImage, productName, productPrice, productTitle, userImage } =
-    user;
+  const { productImage, productName, productPrice, productTitle, userImage } =user;
   const _style = {
     height: "25rem",
     width: "100%",
@@ -31,7 +30,6 @@ const ProductDetails = () => {
       {/* <div style={_style}></div> */}
       <div className="blog_detail_data">
       <div style={_style}></div>
-      {/* <img src={productImage} alt="productimage"/> */}
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="body1" component="div" gutterBottom>
             <strong>Publisher: </strong> {userName}
@@ -51,10 +49,26 @@ const ProductDetails = () => {
             {productName}
           </Typography>
         </div>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
         <Typography variant="h6" component="div">
           {productTitle}
         </Typography>
-        <div>
+        <Typography
+            variant="body1"
+            component="div"
+            gutterBottom
+            sx={{
+              color: "#ffff",
+              backgroundColor: "#E63369",
+              borderRadius: "5px",
+              paddingRight: "10px",
+              paddingLeft: "10px",
+            }}
+          >
+            ${productPrice}
+          </Typography>
+          </div>
+        <div style={{border: '1px solid #E63369', borderRadius: '5px'}}>
           <Accordion >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}

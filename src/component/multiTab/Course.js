@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import { userContent } from "../UserData";
+import { Link } from "react-router-dom";
 
 const Course = () => {
   const frameVide = "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1";
@@ -16,7 +17,7 @@ const Course = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src={frameVide}
+                src={coach.courseVideo}
                 frameborder="0"
                 style={{ borderRadius: "18px 20px 0px 0px", height: "200px" }}
                 allowfullscreen
@@ -30,6 +31,10 @@ const Course = () => {
                 <Typography variant="h5" gutterBottom component="div">
                   Introduction to Psychology
                 </Typography>
+                <Link
+                    to={`/course-detail/${coach.userName}`}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
                 <Button
                   variant="contained"
                   style={{
@@ -41,6 +46,7 @@ const Course = () => {
                 >
                   View Details
                 </Button>
+                </Link>
               </div>
             </div>
           </Grid>

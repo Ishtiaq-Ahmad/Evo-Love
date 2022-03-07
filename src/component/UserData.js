@@ -17,6 +17,7 @@ export const userContent = [
     productTitle: "Mastery Meditation",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 2,
@@ -32,6 +33,7 @@ export const userContent = [
     productTitle: "Passive Income",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 3,
@@ -46,6 +48,7 @@ export const userContent = [
     productTitle: "Benefits of Meditation",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 4,
@@ -60,6 +63,7 @@ export const userContent = [
     productTitle: "Benefits of Meditation",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 5,
@@ -74,6 +78,7 @@ export const userContent = [
     productTitle: "Mastery Meditation",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 6,
@@ -88,6 +93,7 @@ export const userContent = [
     productTitle: "Passive Income",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   
   },
   {
@@ -103,6 +109,7 @@ export const userContent = [
     productTitle: "Benefits of Meditation",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 8,
@@ -117,6 +124,7 @@ export const userContent = [
     productTitle: "Benefits of Meditation",
     productName: "Ebook",
     productPrice: 19.99,
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
  
   {
@@ -124,21 +132,24 @@ export const userContent = [
     userImage: Ibrahim,
     userName: "Ibrahim",
     cardColor: "#c76493",
-    userEmail: 'usermail@gmail.com'
+    userEmail: 'usermail@gmail.com',
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 12,
     userImage: Haseeb,
     userName: "Haseeb",
     cardColor: "#9A8BB7",
-    userEmail: 'usermail@gmail.com'
+    userEmail: 'usermail@gmail.com',
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
   {
     userId: 13,
     userImage: Ishtiaq,
     userName: "Ishtiaq",
     cardColor: "#78cfe1",
-    userEmail: 'usermail@gmail.com'
+    userEmail: 'usermail@gmail.com',
+    courseVideo: "http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1"
   },
 ]
 export const userQuestion =[
